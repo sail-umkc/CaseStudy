@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="example"
+		revision="working@Cuongs-MBP.home"
+		conf="start"
+		confs="start"
+		date="20150703183113"/>
+	<dependencies>
+		<module organisation="org.eclipse.jetty" name="jetty-start">
+			<revision name="9.2.10.v20150310" status="release" pubdate="20150310084312" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="14916" time="0" location="/Users/cuong/.ivy2/cache/org.eclipse.jetty/jetty-start/ivy-9.2.10.v20150310.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-start/9.2.10.v20150310/jetty-start-9.2.10.v20150310.pom"/>
+				<caller organisation="org.apache.solr" name="example" conf="start" rev="9.2.10.v20150310" rev-constraint-default="9.2.10.v20150310" rev-constraint-dynamic="9.2.10.v20150310" callerrev="working@Cuongs-MBP.home"/>
+				<artifacts>
+					<artifact name="jetty-start" type="jar" ext="jar" status="no" details="" size="109306" time="0" location="/Users/cuong/.ivy2/cache/org.eclipse.jetty/jetty-start/jars/jetty-start-9.2.10.v20150310.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-start/9.2.10.v20150310/jetty-start-9.2.10.v20150310.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

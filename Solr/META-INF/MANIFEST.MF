@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Solr
+Bundle-SymbolicName: Solr
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ArchStudio
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: edu.uci.isr.myx.fw;bundle-version="4.1.50"
